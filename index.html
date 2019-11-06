@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CSS GRIDS</title>
+</head>
+<body>
+    <nav id="nav">
+        <div class="title">
+            <h1>CSS GRIDS</h1>
+        </div>
+        <ul>
+            <li>
+                <a href="#columnas" class="nav-button">Columnas</a>
+            </li>
+            <li>
+                <a href="#filas" class="nav-button">Filas</a>
+            </li>
+            <li>
+                <a href="#filas_columnas" class="nav-button">Filas y columnas</a>
+            </li>
+            <li>
+                <a href="#displays" class="nav-button">Displays</a>
+            </li>
+            <li>
+                <a href="#espaciado" class="nav-button">Espaciado</a>
+            </li>
+            <li>
+                <a href="#funciones" class="nav-button">Funciones</a>
+            </li>
+            <li>
+                <a href="#areas" class="nav-button">Areas</a>
+            </li>
+            <li>
+                <a href="#tamaño_item_columnas" class="nav-button">Tamaño de item en columnas</a>
+            </li>
+            <li>
+                <a href="#tamaño_item_filas" class="nav-button">Tamaño de item en filas</a>
+            </li>
+            <li>
+                <a href="#nombre_lineas" class="nav-button">Nombre de las líneas</a>
+            </li>
+            <li>
+                <a href="#grid_implicito" class="nav-button">Grid Implícito</a>
+            </li>
+            <li>
+                <a href="#alineacion" class="nav-button">Alineación de items</a>
+            </li>
+            <li>
+                <a href="#alineacion_filas_columnas" class="nav-button">Alineación de filas y columnas</a>
+            </li>
+            <li>
+                <a href="instagram.html" target="_blank" class="nav-button-2">INSTAGRAM</a>
+            </li>
+            <li>
+                <a href="pinterest.html" target="_blank" class="nav-button-2">PINTEREST</a>
+            </li>
+            <li>
+                <a href="platzi.html" target="_blank" class="nav-button-2">PLATZI</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+    <h2 id="columnas">Columnas</h2>
+    <section class="container col">
+        <div class="item">contenido #1</div>
+        <div class="item">contenido #2</div>
+        <div class="item">contenido #3</div>
+        <div class="item">contenido #4</div>
+        <div class="item">contenido #5</div>
+        <div class="item">contenido #6</div>
+        <div class="item">contenido #7</div>
+        <div class="item">contenido #8</div>
+        <div class="item">contenido #9</div>
+        <div class="item">contenido #10</div>
+        <div class="item">contenido #11</div>
+        <div class="item">contenido #12</div>
+    </section>
+    <hr>
+    <h2 id="filas">Filas</h2>
+    <small>
+        <a href="#nav">
+            subir
+        </a>
+    </small>
+    <section class="container row">
+        <div class="item">contenido #1</div>
+        <div class="item">contenido #2</div>
+        <div class="item">contenido #3</div>
+        <div class="item">contenido #4</div>
+        <div class="item">contenido #5</div>
+        <div class="item">contenido #6</div>
+        <div class="item">contenido #7</div>
+        <div class="item">contenido #8</div>
+        <div class="item">contenido #9</div>
+        <div class="item">contenido #10</div>
+        <div class="item">contenido #11</div>
+        <div class="item">contenido #12</div>
+    </section>
+    <hr>
+    <h2 id="filas_columnas">Filas y columnas</h2>
+    <small><a href="#nav">Subir</a></small>
+    <section class="container row-col">
+        <div class="item">contenido #1</div>
+        <div class="item">contenido #2</div>
+        <div class="item">contenido #3</div>
+        <div class="item">contenido #4</div>
+        <div class="item">contenido #5</div>
+        <div class="item">contenido #6</div>
+        <div class="item">contenido #7</div>
+        <div class="item">contenido #8</div>
+        <div class="item">contenido #9</div>
+        <div class="item">contenido #10</div>
+        <div class="item">contenido #11</div>
+        <div class="item">contenido #12</div>
+    </section>
+    <hr>
+    <h2 id="displays">Displays</h2>
+    <small><a href="#nav">Subir</a></small>
+    <section class="container displays">
+        <div class="item">contenido #1</div>
+        <div class="item">contenido #2</div>
+        <div class="item">contenido #3</div>
+        <div class="item">
+            <div class="item">subitem #1</div>
+            <div class="item">subitem #2</div>
+            <div class="item">subitem #3</div>
+            <div class="item">subitem #4</div>
+            <div class="item">subitem #5</div>
+        </div>
+        <div class="item">contenido #5</div>
+        <div class="item">contenido #6</div>
+        <div class="item">contenido #7</div>
+        <div class="item">contenido #8</div>
+        <div class="item">contenido #9</div>
+        <div class="item">contenido #10</div>
+        <div class="item">contenido #11</div>
+        <div class="item">contenido #12</div>
+    </section>
+    <hr>
+    <h2 id="espaciado">Espaciado</h2>
+    <small><a href="#nav">Subir</a></small>
+    <section class="container espaciado">
+        <div class="item">contenido #1</div>
+        <div class="item">contenido #2</div>
+        <div class="item">contenido #3</div>
+        <div class="item">contenido #4</div>
+        <div class="item">contenido #5</div>
+        <div class="item">contenido #6</div>
+        <div class="item">contenido #7</div>
+        <div class="item">contenido #8</div>
+        <div class="item">contenido #9</div>
+        <div class="item">contenido #10</div>
+        <div class="item">contenido #11</div>
+        <div class="item">contenido #12</div>
+    </section>
+    <hr>
+    <h2 id="funciones">Funciones (responsive)</h2>
+    <small><a href="#nav">Subir</a></small>
+    <section class="container funciones">
+        <div class="item">contenido #1</div>
+        <div class="item">contenido #2</div>
+        <div class="item">contenido #3</div>
+        <div class="item">contenido #4</div>
+        <div class="item">contenido #5</div>
+        <div class="item">contenido #6</div>
+        <div class="item">contenido #7</div>
+        <div class="item">contenido #8</div>
+        <div class="item">contenido #9</div>
+        <div class="item">contenido #10</div>
+        <div class="item">contenido #11</div>
+        <div class="item">contenido #12</div>
+    </section>
+    <hr>
+    <h2 id="areas">Áreas</h2>
+    <small><a href="#nav">Subir</a></small>
+    <section class="container areas">
+        <div class="item header">contenido #1</div>
+        <div class="item left">contenido #2</div>
+        <div class="item contenido">contenido #3</div>
+        <div class="item footer">contenido #4</div>
+    </section>
+    <hr>
+    <h2 id="tamaño_item_columnas">Tamaño de item en columnas</h2>
+    <small><a href="#nav">Subir</a></small>
+    <section class="container col-siz">
+        <div class="item">item #1</div>
+        <div class="item">item #2</div>
+        <div class="item">item #3</div>
+        <div class="item">item #4</div>
+        <div class="item">item #5</div>
+        <div class="item">item #6</div>
+        <div class="item">item #7</div>
+        <div class="item">item #8</div>
+        <div class="item">item #9</div>
+        <div class="item">item #10</div>
+        <div class="item">item #11</div>
+        <div class="item">item #12</div>
+    </section>
+    <hr>
+    <h2 id="tamaño_item_filas">Tamaño de item en filas</h2>
+    <small><a href="#nav">Subir</a></small>
+    <section class="container row-siz">
+        <div class="item">item #1</div>
+        <div class="item">item #2</div>
+        <div class="item">item #3</div>
+        <div class="item">item #4</div>
+        <div class="item">item #5</div>
+    </section>
+    <hr>
+    <h2 id="nombre_lineas">Nombre de líneas</h2>
+    <small><a href="#nav">Subir</a></small>
+    <section class="container nombre-linea">
+        <div class="item">item #1</div>
+        <div class="item">item #2</div>
+        <div class="item">item #3</div>
+        <div class="item">item #4</div>
+        <div class="item">item #5</div>
+    </section>
+    <hr>
+    <h2 id="grid_implicito">Grid Implícito</h2>
+    <small><a href="#nav">Subir</a></small>
+    <section class="container nombre-linea grid_implicito">
+        <div class="item">item #1</div>
+        <div class="item">item #2</div>
+        <div class="item">item #3</div>
+        <div class="item">item #4</div>
+        <div class="item">item #5</div>
+        <div class="item">item #5</div>
+        <div class="item">item #5</div>
+        <div class="item">item #5</div>
+        <div class="item">item #5</div>
+    </section>
+    <hr>
+    <h2 id="alineacion">Alineación de items</h2>
+    <small><a href="#nav">Subir</a></small>
+    <section class="container alineacion">
+        <div class="item">item #1</div>
+        <div class="item">item #2</div>
+        <div class="item">item #3</div>
+        <div class="item">item #4</div>
+        <div class="item">item #5</div>
+        <div class="item">item #6</div>
+        <div class="item">item #7</div>
+        <div class="item">item #8</div>
+        <div class="item">item #9</div>
+        <div class="item">item #10</div>
+        <div class="item">item #11</div>
+        <div class="item">item #12</div>
+    </section>
+    <hr>
+    <h2 id="alineacion_filas_columnas">Alineación de filas y columnas</h2>
+    <small><a href="#nav">Subir</a></small>
+    <section class="container alineacion_filas_columnas">
+        <div class="item">item #1</div>
+        <div class="item">item #2</div>
+        <div class="item">item #3</div>
+        <div class="item">item #4</div>
+        <div class="item">item #5</div>
+        <div class="item">item #6</div>
+        <div class="item">item #7</div>
+        <div class="item">item #8</div>
+        <div class="item">item #9</div>
+        <div class="item">item #10</div>
+        <div class="item">item #11</div>
+        <div class="item">item #12</div>
+    </section>
+</body>
+</html>
